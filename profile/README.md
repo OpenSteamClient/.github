@@ -11,6 +11,7 @@ To compensate for this we have various 64-bit support libraries that we try to m
 ## Contribution guidelines
 Currently development is in a early stage and nothing is set in stone.
 Please hold contributions until major architectural changes and plans have been finalized. If you wish to be notified about this, open an issue in the corresponding repo and I'll handle it.
+Our libraries currently have no API stability guarantees, and they are developed in lock-step with OpenSteamClient, the main GUI app. 
 
 
 ## Repos and their uses

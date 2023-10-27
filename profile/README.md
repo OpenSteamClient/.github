@@ -2,7 +2,8 @@
 OpenSteamClient is a collection of open-source libraries and various tidbits to interface with Steam.
 
 ## End users
-OpenSteamClient is not yet ready for general use. There's a TODO list available at the various repos, but most end users are probably interested in the GUI, which is being developed [here](https://github.com/OpenSteamClient/OpenSteamClient)
+OpenSteamClient is not yet ready for general use. There's a TODO list available at the various repos, but most end users are probably interested in the GUI, which is being developed [here](https://github.com/OpenSteamClient/OpenSteamClient).
+Currently a rewrite is ongoing.
 
 ## Support libraries
 Steam only officially provides 32-bit client libraries on Windows and linux. 

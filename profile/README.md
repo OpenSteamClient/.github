@@ -20,6 +20,7 @@ Please hold contributions until major architectural changes and plans have been 
 | [OpenSteamworks](https://github.com/OpenSteamClient/OpenSteamworks) | Library to interface with Steam's client API's | C# |
 | [OpenSteamworks.Client](https://github.com/OpenSteamClient/OpenSteamworks.Client) | Library to build your own frontend for Steam | C#, C++ |
 | [SDL](https://github.com/OpenSteamClient/SDL) | 64-bit SDL support library | C |
+| [SDL_ttf](https://github.com/OpenSteamClient/SDL_ttf) | Support for SDL to load .ttf files | C |
 | [Tools](https://github.com/OpenSteamClient/Tools) | Tools to help with automatable maintenance tasks | Javascript, Typescript, C++ |
 
 <!--

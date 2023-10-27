@@ -1,19 +1,19 @@
-# OpenSteamClient
+## OpenSteamClient
 OpenSteamClient is a collection of open-source libraries and various tidbits to interface with Steam.
 
-# End users
+## End users
 OpenSteamClient is not yet ready for general use. There's a TODO list available at the various repos, but most end users are probably interested in the GUI, which is being developed [here](https://github.com/OpenSteamClient/OpenSteamClient)
 
-# Support libraries
+## Support libraries
 Steam only officially provides 32-bit client libraries on Windows and linux. 
 To compensate for this we have various 64-bit support libraries that we try to match to the official ones as closely as possible.
 
-# Contribution guidelines
+## Contribution guidelines
 Currently development is in a early stage and nothing is set in stone.
 Please hold contributions until major architectural changes and plans have been finalized. If you wish to be notified about this, open an issue in the corresponding repo and I'll handle it.
 
 
-# Repos and their uses
+## Repos and their uses
 | Repository  | Purpose | Language |
 | ------------- | ------------- | - |
 | [OpenSteamClient](https://github.com/OpenSteamClient/OpenSteamClient) | An open-source GUI frontend for Steam, powered by Avalonia | C# |

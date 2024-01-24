@@ -12,15 +12,16 @@ To compensate for this we have various 64-bit support libraries that we try to m
 ## Contribution guidelines
 Currently development is in a early stage and nothing is set in stone.
 Please hold contributions until major architectural changes and plans have been finalized. If you wish to be notified about this, open an issue in the corresponding repo and I'll handle it.
-Our libraries currently have no API stability guarantees, and they are developed in lock-step with OpenSteamClient, the main GUI app. 
+Our libraries currently have no API stability guarantees, and they are developed in lock-step with OpenSteamClient/ClientUI, the main GUI app. 
 
 
 ## Repos and their uses
 | Repository  | Purpose | Language |
 | ------------- | ------------- | - |
-| [OpenSteamClient](https://github.com/OpenSteamClient/OpenSteamClient) | An open-source GUI frontend for Steam, powered by Avalonia | C# |
+| [OpenSteamClient](https://github.com/OpenSteamClient/OpenSteamClient) | (Currently being remade, C++ version is pretty terrible right now) An open-source GUI frontend for Steam, powered by Qt | C++ |
 | [OpenSteamworks](https://github.com/OpenSteamClient/OpenSteamworks) | Library to interface with Steam's client API's | C# |
 | [OpenSteamworks.Client](https://github.com/OpenSteamClient/OpenSteamworks.Client) | Library to build your own frontend for Steam | C#, C++ |
+| [OpenSteamworks.Native](https://github.com/OpenSteamClient/OpenSteamworks.Native) | Native support libraries (fakeservice, protobufhack) | C#, C++ |
 | [SDL](https://github.com/OpenSteamClient/SDL) | 64-bit SDL support library | C |
 | [SDL_ttf](https://github.com/OpenSteamClient/SDL_ttf) | Support for SDL to load .ttf files | C |
 | [Tools](https://github.com/OpenSteamClient/Tools) | Tools to help with automatable maintenance tasks | Javascript, Typescript, C++ |

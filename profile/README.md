@@ -6,7 +6,7 @@ OpenSteamClient is not yet ready for general use. There's a TODO list available 
 Currently a rewrite is ongoing.
 
 ## Support libraries
-Steam only officially provides 32-bit client libraries on Windows and linux. 
+Steam only officially provides 32-bit client libraries on Windows and linux. Dotnet is only available as 64-bit. Luckily, there is a 64-bit library also available, but it's only meant primarily for games, but it also works fine for client use.
 To compensate for this we have various 64-bit support libraries that we try to match to the official ones as closely as possible.
 
 ## Contribution guidelines
